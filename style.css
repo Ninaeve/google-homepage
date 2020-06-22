@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+.gmail {
+    padding: 10px;
+}
+.images {
+    padding: 10px;
+}
+.appli {
+    padding: 10px;
+}
+.mon-compte {
+    padding: 10px;
+}
+/* .main-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+.google-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    width: 500px;
+    height: 40px;
+    border : 2px solid rgb(182, 181, 181);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.boutton {
+    display: flex;
+    justify-content: center;
+    padding-left: 133px;
+    padding-right: 133px;
+}
+.footer {
+    display: block;
+    align-content: flex-end;
+}
