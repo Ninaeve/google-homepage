@@ -23,20 +23,26 @@ a:hover {
 .mon-compte {
     padding: 10px;
 }
-/* .main-search {
+main {
+    display: flex;
+    justify-content: center;
+}
+ /*.main-search {
     width: 100%;
     display: flex;
-    justify-content: center;
-} */
+    justify-content: center;*/
+} 
 .google-image {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
     padding-top: 150px;
     padding-bottom: 20px;
 }
-.search-form {
-    display: flex;
+.form {
+   /* display: flex;
     justify-content: center;
+    align-self: center;
+    */
 }
 .search {
     width: 500px;
@@ -44,13 +50,16 @@ a:hover {
     border : 2px solid rgb(182, 181, 181);
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-right: 2px;
+    /*display: flex;
+    justify-content: center;*/
 }
 .boutton {
-    display: flex;
-    justify-content: center;
-    padding-left: 133px;
-    padding-right: 133px;
+    display: grid;
+    
+   
 }
+
 .footer {
     display: block;
     align-content: flex-end;
